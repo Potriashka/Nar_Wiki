@@ -22,5 +22,9 @@ def fhokage():
 def hokage():
     return render_template('hokage.html')
 
+@app.route('/narbir')
+def narbir():
+    return render_template('narbir.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
