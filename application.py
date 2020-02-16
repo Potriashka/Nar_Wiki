@@ -14,9 +14,9 @@ def anime():
 def konoha():
     return render_template('konoha.html')
 
-@app.route('/hokage')
-def hokage():
-    return render_template('hokage.html')
+@app.route('/fhokage')
+def fhokage():
+    return render_template('fhokage.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
