@@ -10,5 +10,13 @@ def index():
 def anime():
     return render_template('anime.html')
 
+@app.route('/konoha')
+def konoha():
+    return render_template('konoha.html')
+
+@app.route('/hokage')
+def hokage():
+    return render_template('hokage.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
