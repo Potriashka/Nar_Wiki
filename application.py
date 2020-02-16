@@ -18,7 +18,7 @@ def konoha():
 def fhokage():
     return render_template('fhokage.html')
 
-@app.route('/hokage')
+@app.route('/petenarwiki.herokuapp.com/hokage')
 def hokage():
     return render_template('hokage.html')
 
