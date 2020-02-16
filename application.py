@@ -18,5 +18,9 @@ def konoha():
 def fhokage():
     return render_template('fhokage.html')
 
+@app.route('/hokage')
+def hokage():
+    return render_template('hokage.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
