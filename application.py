@@ -22,7 +22,7 @@ def fhokage():
 def hokage():
     return render_template('hokage.html')
 
-@app.route('/petenarwiki.herokuapp.com/narbir')
+@app.route('/petenarwiki.herokuapp.com/petenarwiki.herokuapp.com/narbir')
 def narbir():
     return render_template('narbir.html')
 
