@@ -38,7 +38,7 @@ def ninac():
 def team7():
     return render_template('team7.html')
 
-@app.route('/chunin')
+@app.route('/petenarwiki.herokuapp.com/chunin')
 def chunin():
     return render_template('chunin.html')
 
