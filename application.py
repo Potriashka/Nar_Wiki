@@ -26,5 +26,9 @@ def hokage():
 def narbir():
     return render_template('narbir.html')
 
+@app.route('//petenarwiki.herokuapp.com/petenarwiki.herokuapp.com/konoha2')
+def konoha2():
+    return render_template('konoha2.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
