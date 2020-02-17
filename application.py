@@ -42,5 +42,9 @@ def team7():
 def chunin():
     return render_template('chunin.html')
 
+@app.route('/petenarwiki.herokuapp.com/boruto')
+def boruto():
+    return render_template('boruto.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
