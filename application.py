@@ -42,7 +42,7 @@ def team7():
 def chunin():
     return render_template('chunin.html')
 
-@app.route('/petenarwiki.herokuapp.com/boruto')
+@app.route('/petenarwiki.herokuapp.com/petenarwiki.herokuapp.com/boruto')
 def boruto():
     return render_template('boruto.html')
 
