@@ -30,7 +30,7 @@ def narbir():
 def konoha2():
     return render_template('konoha2.html')
 
-@app.route('/ninac')
+@app.route('/petenarwiki.herokuapp.com/ninac')
 def ninac():
     return render_template('ninac.html')
 
