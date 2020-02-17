@@ -34,7 +34,7 @@ def konoha2():
 def ninac():
     return render_template('ninac.html')
 
-@app.route('/team7')
+@app.route('/petenarwiki.herokuapp.com/team7')
 def team7():
     return render_template('team7.html')
 
