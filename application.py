@@ -30,5 +30,17 @@ def narbir():
 def konoha2():
     return render_template('konoha2.html')
 
+@app.route('/ninac')
+def ninac():
+    return render_template('ninac.html')
+
+@app.route('/team7')
+def team7():
+    return render_template('team7.html')
+
+@app.route('/chunin')
+def chunin():
+    return render_template('chunin.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
