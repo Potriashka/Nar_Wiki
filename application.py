@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('naruto.html')
 
 @app.route('/GH')
 def reshetka():
@@ -20,7 +20,7 @@ def konoha():
 
 @app.route('/fhokage')
 def fhokage():
-    return render_template('fhokage.html')
+    return render_template('minato.html')
 
 @app.route('/petenarwiki.herokuapp.com/hokage')
 def hokage():
@@ -28,7 +28,7 @@ def hokage():
 
 @app.route('/petenarwiki.herokuaoo.com/narbir')
 def narbir():
-    return render_template('narbir.html')
+    return render_template('10thoctober.html')
 
 @app.route('//petenarwiki.herokuapp.com/petenarwiki.herokuapp.com/konoha')
 def konoha2():
@@ -36,7 +36,7 @@ def konoha2():
 
 @app.route('/petenarwiki.herokuapp.com/ninac')
 def ninac():
-    return render_template('ninac.html')
+    return render_template('academy.html')
 
 @app.route('/petenarwiki.herokuapp.com/team7')
 def team7():
