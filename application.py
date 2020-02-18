@@ -2,6 +2,9 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+
+website_names = [konoha, hokage, minato, 10thoctober, academy, naruto, boruto] # здесь названия всех вебстраниц
+
 @app.route('/')
 def index():
     return render_template('naruto.html')
