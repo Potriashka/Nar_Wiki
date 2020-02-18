@@ -3,7 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-website_names = [konoha, hokage, minato, 10thoctober, academy, naruto, boruto] # здесь названия всех вебстраниц
+website_names = [konoha.html, hokage.html, minato.html, 10thoctober.html, academy.html, naruto.html, boruto.html] # здесь названия всех вебстраниц
 
 @app.route('/')
 def index():
