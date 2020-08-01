@@ -3,7 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-website_names = [konoha.html, hokage.html, minato.html, 10thoctober.html, academy.html, naruto.html, boruto.html] # здесь названия всех вебстраниц
+website_names = ["konoha.html", "hokage.html", "minato.html", "10thoctober.html", "academy.html", "naruto.html", "boruto.html"]
 
 @app.route('/')
 def index():
@@ -52,14 +52,6 @@ def chunin():
 @app.route('/petenarwiki.herokuapp.com/petenarwiki.herokuapp.com/boruto')
 def boruto():
     return render_template('boruto.html')
-
-@app.route("/search", methods=[GET, POST])
-def search():
-	search = request.form["search"]
-	if search in website_names:
-	 	return render_template(f"{search}.html")
-	else:
-		return render_template("404.html") # сам напишешь
 
 if __name__ == "__main__":
     app.run(debug=True)
